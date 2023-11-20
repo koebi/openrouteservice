@@ -11,6 +11,7 @@ elevation-cache/
 cgiar_cache/
 node_modules/
 
+
 # jqwik
 .jqwik-database
 
@@ -23,3 +24,7 @@ ors-api/src/main/resources/ors-config*
 
 envs/
 ors-config-repo/
+
+# docs stuff
+docs/.vitepress/dist
+docs/.vitepress/cache
