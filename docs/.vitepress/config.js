@@ -10,10 +10,13 @@ export default defineConfig({
 			src: 'assets/images/openrouteservice.png',
 			alt: 'openrouteservice logo',
 	},
-    // https://vitepress.dev/reference/default-theme-config
+	search: {
+			provider: 'local'
+	},
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Homepage', link: 'https://openrouteservice.org' },
+      { text: 'Forum', link: 'https://ask.openrouteservice.org' },
+      { text: 'API Playground', link: 'https://openrouteservice.org/dev/#/api-docs' },
     ],
 
     sidebar: [
