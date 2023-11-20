@@ -21,47 +21,65 @@ export default defineConfig({
     ],
 
     sidebar: [
-	    {
-			text: 'Home', link: '/',
-		    items: [
-			    { text: 'Installation and Usage', link: 'installation/Installation-and-Usage' }
-		    ]
-	    }
+      {
+        text: 'Home', link: '/',
+        items: [
+          { text: 'Installation and Usage', collapsed: true, link: 'installation/Installation-and-Usage',
+            items: [
+              { text: 'Running with Docker', link: 'installation/Running-with-Docker'},
+              { text: 'Building from Source', link: 'installation/Building-from-Source'},
+              { text: 'System Requirements', link: 'installation/System-Requirements'},
+              { text: 'Configuration', link: 'installation/Configuration'},
+              { text: 'Advanced Docker Setup', link: 'installation/Advanced-Docker-Setup'}
+            ]
+          },
+          { text: 'Data', link: 'Data'},
+          { text: 'Contributing', collapsed: true, link:'contributing/Contributing',
+            items: [
+              { text: 'Contributing Translations', link: 'contributing/Contributing-Translations'}
+            ]
+          },
+          { text: 'Documentation', collapsed: true, link:'documentation/Documentation',
+            items: [
+              { text: 'Tag Filtering', link: 'documentation/Tag-Filtering' },
+              { text: 'Travel Speeds', collapsed: true, link: 'documentation/travel-speeds/Travel-Speeds',
+                items: [
+                  { text: 'Waytype Speeds', link: 'travel-speeds/Waytype-Speeds' },
+                  { text: 'Surface Speeds', link: 'travel-speeds/Surface-Speeds' },
+                  { text: 'Tracktype Speeds', link: 'travel-speeds/Tracktype-Speeds' },
+                  { text: 'Country Speeds', link: 'travel-speeds/Country-Speeds' }
+                ]
+              },
+              { text: 'Route Attributes', link: 'documentation/Route-Attributes' },
+              { text: 'Routing Options', collapsed: true, link: 'documentation/routing-options/Routing-Options',
+                items: [
+                  { text: 'Examples', link: 'routing-options/Examples' },
+                  { text: 'Country List', link: 'routing-options/Country-List' },
+              ]
+            },
+            { text: 'Instruction Types', link: 'documentation/Instruction-Types' },
+            { text: 'Extra Info', collapsed: true, link: 'documentation/extra-info/Extra-Info',
+              items: [
+                { text: 'Steepness', link: 'extra-info/Steepness' },
+                { text: 'Surface', link: 'extra-info/Surface' },
+                { text: 'Waycategory', link: 'extra-info/Waycategory' },
+                { text: 'Waytype', link: 'extra-info/Waytype' },
+                { text: 'Trail Difficulty', link: 'extra-info/Trail-Difficulty' },
+                { text: 'Road Access Restrictions', link: 'extra-info/Road-Access-Restrictions' }
+                ]
+              },
+              { text: 'Geometry Decoding', link: 'documentation/Geometry-Decoding' },
+              { text: 'Structured Geocoding Query', link: 'documentation/Structured-Geocoding-Query' },
+              { text: 'Matrix Response', link: 'documentation/Matrix-Response' },
+              { text: 'Places Request and Response', link: 'documentation/Places-Request-and-Response' },
+              { text: 'Geocoding Response', link: 'documentation/Geocoding-Response' },
+              { text: 'Error Codes', link: 'documentation/Error-Codes' },
+            ]
+          },
+          { text: 'FAQ', link: 'Frequently-Asked-Questions'}
+        ]
+      }
     ],
-//        Running with Docker
-//        Building from Source
-//        System Requirements
-//        Configuration
-//        Advanced Docker Setup
-//    Data
-//    Contributing
-//        Contributing Translations
-//    Documentation
-//        Tag Filtering
-//        Travel Speeds
-//            Waytype Speeds
-//            Surface Speeds
-//            Tracktype Speeds
-//            Country Speeds
-//        Route Attributes
-//        Routing Options
-//            Examples
-//            Country List
-//        Instruction Types
-//        Extra Info
-//            Steepness
-//            Surface
-//            Waycategory
-//            Waytype
-//            Trail Difficulty
-//            Road Access Restrictions
-//        Geometry Decoding
-//        Structured Geocoding Query
-//        Matrix Response
-//        Places Request and Response
-//        Geocoding Response
-//        Error Codes
-//    FAQ
 
     socialLinks: [
       // TODO: change link
