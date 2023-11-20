@@ -9,7 +9,7 @@ If that doesn't work, the sidebar has you covered:
   [docker](installation/Running-with-Docker) or from
   [source](installation/Building-from-Source). It also contains info about
   [configuring openrouteservice](installation/Configuration),
-  [IDE usage](installation-Opening-Project-in-IntelliJ) and
+  [IDE usage](installation/Opening-Project-in-IntelliJ) and
   [more docker stuff](installation/Advanced-Docker-Setup)
 * [Data](Data) contains info about the used data sets.
 * [Contributing](contributing/Contributing) contains info about contributing to
