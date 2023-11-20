@@ -1,7 +1,4 @@
 ---
-grand_parent: Documentation
-parent: Travel Speeds
-nav_order: 1
 title: Waytype Speeds
 ---
 

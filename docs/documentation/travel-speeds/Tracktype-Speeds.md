@@ -1,7 +1,4 @@
 ---
-grand_parent: Documentation
-parent: Travel Speeds
-nav_order: 3
 title: Tracktype Speeds
 ---
 
