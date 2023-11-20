@@ -44,28 +44,28 @@ export default defineConfig({
               { text: 'Tag Filtering', link: 'documentation/Tag-Filtering' },
               { text: 'Travel Speeds', collapsed: true, link: 'documentation/travel-speeds/Travel-Speeds',
                 items: [
-                  { text: 'Waytype Speeds', link: 'travel-speeds/Waytype-Speeds' },
-                  { text: 'Surface Speeds', link: 'travel-speeds/Surface-Speeds' },
-                  { text: 'Tracktype Speeds', link: 'travel-speeds/Tracktype-Speeds' },
-                  { text: 'Country Speeds', link: 'travel-speeds/Country-Speeds' }
+                  { text: 'Waytype Speeds', link: 'documentation/travel-speeds/Waytype-Speeds' },
+                  { text: 'Surface Speeds', link: 'documentation/travel-speeds/Surface-Speeds' },
+                  { text: 'Tracktype Speeds', link: 'documentation/travel-speeds/Tracktype-Speeds' },
+                  { text: 'Country Speeds', link: 'documentation/travel-speeds/Country-Speeds' }
                 ]
               },
               { text: 'Route Attributes', link: 'documentation/Route-Attributes' },
               { text: 'Routing Options', collapsed: true, link: 'documentation/routing-options/Routing-Options',
                 items: [
-                  { text: 'Examples', link: 'routing-options/Examples' },
-                  { text: 'Country List', link: 'routing-options/Country-List' },
+                  { text: 'Examples', link: 'documentation/routing-options/Examples' },
+                  { text: 'Country List', link: 'documentation/routing-options/Country-List' },
               ]
             },
             { text: 'Instruction Types', link: 'documentation/Instruction-Types' },
             { text: 'Extra Info', collapsed: true, link: 'documentation/extra-info/Extra-Info',
               items: [
-                { text: 'Steepness', link: 'extra-info/Steepness' },
-                { text: 'Surface', link: 'extra-info/Surface' },
-                { text: 'Waycategory', link: 'extra-info/Waycategory' },
-                { text: 'Waytype', link: 'extra-info/Waytype' },
-                { text: 'Trail Difficulty', link: 'extra-info/Trail-Difficulty' },
-                { text: 'Road Access Restrictions', link: 'extra-info/Road-Access-Restrictions' }
+                { text: 'Steepness', link: 'documentation/extra-info/Steepness' },
+                { text: 'Surface', link: 'documentation/extra-info/Surface' },
+                { text: 'Waycategory', link: 'documentation/extra-info/Waycategory' },
+                { text: 'Waytype', link: 'documentation/extra-info/Waytype' },
+                { text: 'Trail Difficulty', link: 'documentation/extra-info/Trail-Difficulty' },
+                { text: 'Road Access Restrictions', link: 'documentation/extra-info/Road-Access-Restrictions' }
                 ]
               },
               { text: 'Geometry Decoding', link: 'documentation/Geometry-Decoding' },
