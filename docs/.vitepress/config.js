@@ -2,10 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "openrouteservice backend documentation",
+  title: " ",
   description: "openrouteservice backend documentation",
   base: "/openrouteservice/",
   themeConfig: {
+	logo: {
+			src: 'assets/images/openrouteservice.png',
+			alt: 'openrouteservice logo',
+	},
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -13,14 +17,47 @@ export default defineConfig({
     ],
 
     sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+	    {
+			text: 'Home', link: '/',
+		    items: [
+			    { text: 'Installation and Usage', link: 'installation/Installation-and-Usage' }
+		    ]
+	    }
     ],
+//        Running with Docker
+//        Building from Source
+//        System Requirements
+//        Configuration
+//        Advanced Docker Setup
+//    Data
+//    Contributing
+//        Contributing Translations
+//    Documentation
+//        Tag Filtering
+//        Travel Speeds
+//            Waytype Speeds
+//            Surface Speeds
+//            Tracktype Speeds
+//            Country Speeds
+//        Route Attributes
+//        Routing Options
+//            Examples
+//            Country List
+//        Instruction Types
+//        Extra Info
+//            Steepness
+//            Surface
+//            Waycategory
+//            Waytype
+//            Trail Difficulty
+//            Road Access Restrictions
+//        Geometry Decoding
+//        Structured Geocoding Query
+//        Matrix Response
+//        Places Request and Response
+//        Geocoding Response
+//        Error Codes
+//    FAQ
 
     socialLinks: [
       // TODO: change link
