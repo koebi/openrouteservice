@@ -2,17 +2,18 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: " ",
+  title: "openrouteservice backend documentation",
   description: "openrouteservice backend documentation",
   base: "/openrouteservice/",
   themeConfig: {
-	logo: {
-			src: 'assets/images/openrouteservice.png',
-			alt: 'openrouteservice logo',
-	},
-	search: {
-			provider: 'local'
-	},
+    siteTitle: false,
+    logo: {
+      src: 'assets/images/openrouteservice.png',
+      alt: 'openrouteservice logo',
+    },
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Homepage', link: 'https://openrouteservice.org' },
       { text: 'Forum', link: 'https://ask.openrouteservice.org' },
