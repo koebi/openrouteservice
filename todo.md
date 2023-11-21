@@ -8,12 +8,12 @@ Todo:
 * [ ] find nice icons for frontpage
 * [x] revert index.md
 * [ ] check frontmatters, delete unnecessary stuff
-* [ ] check settings (last edited, edit on gh, …)
+* [x] check settings (last edited, edit on gh, …)
 * [x] get next/prev working
 * [x] fix index.md, remove md/API examples from generator
-* [ ] style (according to HeiGIT corporate design guidelines)
+* [x] style (according to HeiGIT corporate design guidelines)
 * [ ] document (local) setup
-* [ ] set prev/next for "getting started" or include in sidebar
+* [x] set prev/next for "getting started" or include in sidebar
 
 * [ ] integrate into upstream repo
 * [ ] trigger on release
@@ -22,5 +22,7 @@ Other ideas
 * [ ] API&docs versioning
 * [ ] Algolia search?
 
-Unclear:
-* [ ] check TOC navigation in navbar
+
+Bug Report:
+* [ ] public folder need for statis assets
+* [ ] Sidebar next/prev requires leading '/', but sidebar works without
