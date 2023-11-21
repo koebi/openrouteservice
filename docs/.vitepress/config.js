@@ -38,7 +38,10 @@ export default defineConfig({
       {
         text: 'Home', link: '/',
         items: [
-          { text: 'Installation and Usage', collapsed: true, link: '/installation/Installation-and-Usage',
+          {
+            text: 'Getting Started', link: '/getting-started'
+          },
+          { text: 'Installation and Usage', collapsed: false, link: '/installation/Installation-and-Usage',
             items: [
               { text: 'Running with Docker', link: '/installation/Running-with-Docker'},
               { text: 'Building from Source', link: '/installation/Building-from-Source'},
