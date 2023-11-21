@@ -7,7 +7,11 @@ export default defineConfig({
   base: "/openrouteservice/",
   themeConfig: {
     siteTitle: false,
-    logo: '/openrouteservice.png',
+    logo: { 
+      light: '/openrouteservice.png', 
+      dark: '/openrouteservice_dark.png', 
+      alt: 'openrouteservice logo'
+    },
     search: {
       provider: 'local'
     },
