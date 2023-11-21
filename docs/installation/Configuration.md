@@ -1,6 +1,4 @@
 ---
-parent: Installation and Usage
-nav_order: 4
 title: Configuration
 ---
 

@@ -1,6 +1,4 @@
 ---
-parent: Documentation
-nav_order: 3
 title: Route Attributes
 ---
 

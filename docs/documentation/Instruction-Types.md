@@ -1,6 +1,4 @@
 ---
-parent: Documentation
-nav_order: 5
 title: Instruction Types
 ---
 

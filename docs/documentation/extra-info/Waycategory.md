@@ -1,7 +1,4 @@
 ---
-grand_parent: Documentation
-parent: Extra Info
-nav_order: 3
 title: Waycategory
 ---
 

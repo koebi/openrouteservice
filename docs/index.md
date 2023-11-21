@@ -3,7 +3,7 @@ title: Home
 layout: home
 hero:
     name: Openrouteservice Backend Documentation
-    tagline: Ze Dokumentation of ze bestest routing service wo gibt
+    tagline: U a tagline writer? Apply at HeiGIT!
     actions:
         - theme: brand
           text: Getting Started

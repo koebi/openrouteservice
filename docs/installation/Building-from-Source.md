@@ -1,6 +1,4 @@
 ---
-parent: Installation and Usage
-nav_order: 2
 title: Building from Source
 ---
 

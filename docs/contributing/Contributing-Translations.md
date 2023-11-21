@@ -1,6 +1,4 @@
 ---
-parent: Contributing
-nav_order: 1
 title: Contributing Translations
 ---
 

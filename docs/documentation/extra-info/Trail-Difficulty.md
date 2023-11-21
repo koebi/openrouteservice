@@ -1,7 +1,4 @@
 ---
-grand_parent: Documentation
-parent: Extra Info
-nav_order: 5
 title: Trail Difficulty
 ---
 

@@ -1,6 +1,4 @@
 ---
-parent: Installation and Usage
-nav_order: 1
 title: Running with Docker
 ---
 

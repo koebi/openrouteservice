@@ -1,6 +1,4 @@
 ---
-parent: Documentation
-nav_order: 1
 title: Tag Filtering
 ---
 

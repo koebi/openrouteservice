@@ -1,8 +1,5 @@
 ---
 title: Installation and Usage
-nav_order: 2
-has_children: true
-has_toc: false
 ---
 
 # Installation and Usage

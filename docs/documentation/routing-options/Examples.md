@@ -1,7 +1,4 @@
 ---
-grand_parent: Documentation
-parent: Routing Options
-nav_order: 2
 title: Examples
 ---
 

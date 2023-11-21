@@ -1,6 +1,4 @@
 ---
-parent: Documentation
-nav_order: 10
 title: Places Request and Response
 ---
 

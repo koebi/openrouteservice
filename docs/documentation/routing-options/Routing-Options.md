@@ -1,8 +1,4 @@
 ---
-parent: Documentation
-nav_order: 4
-has_children: true
-has_toc: false
 title: Routing Options
 ---
 
