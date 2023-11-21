@@ -8,7 +8,7 @@ export default defineConfig({
   themeConfig: {
     siteTitle: false,
     logo: {
-      src: 'assets/images/openrouteservice.png',
+      src: '/assets/images/openrouteservice.png',
       alt: 'openrouteservice logo',
     },
     search: {
