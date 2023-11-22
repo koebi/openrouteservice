@@ -1,7 +1,3 @@
----
-title: Contributing
----
-
 # Contributing
 * [Contributing Code](https://github.com/GIScience/openrouteservice/blob/master/CONTRIBUTE.md)
 * [Contributing Translations](Contributing-Translations)

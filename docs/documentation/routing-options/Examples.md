@@ -1,7 +1,3 @@
----
-title: Examples
----
-
 # Examples
 
 **If your request works without the options object, but returns an error with it: try to [%-encode](Routing-Options#url-encoding) the options object!**

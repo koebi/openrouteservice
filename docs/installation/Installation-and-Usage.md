@@ -1,7 +1,3 @@
----
-title: Installation and Usage
----
-
 # Installation and Usage
 
 ## Installation via Docker

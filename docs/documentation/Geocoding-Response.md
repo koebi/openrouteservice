@@ -1,7 +1,3 @@
----
-title: Geocoding Response
----
-
 # Geocoding Response
 
 Explanation of returned parameters

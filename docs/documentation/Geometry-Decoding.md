@@ -1,7 +1,3 @@
----
-title: Geometry Decoding
----
-
 # Geometry Decoding
 
 When a response includes a geometry the data might be encoded as single string. This is a so-called [encoded polyline](https://developers.google.com/maps/documentation/utilities/polylinealgorithm).

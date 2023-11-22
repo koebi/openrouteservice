@@ -1,7 +1,3 @@
----
-title: Running with Docker
----
-
 # Running with Docker
 
 ## Install and run openrouteservice with docker

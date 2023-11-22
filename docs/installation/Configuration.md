@@ -1,7 +1,3 @@
----
-title: Configuration
----
-
 # Configuration
 
 The configuration of your own **openrouteservice** instance is done in a YAML file called `ors-config.yml`.

@@ -1,8 +1,4 @@
----
-title: Waycategory
----
-
-## WayCategory
+# WayCategory
 
 The exponential assignment of the values is used for [bit fields](http://eddmann.com/posts/using-bit-flags-and-enumsets-in-java/). One route section may belong to different categories. Hence a value of ``97`` would indicate a belonging to ``Paved road``, ``Tunnel`` and ``Highway`` (``64`` + ``32`` + ``1`` ).
 

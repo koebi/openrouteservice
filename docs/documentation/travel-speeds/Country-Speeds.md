@@ -1,7 +1,3 @@
----
-title: Country Speeds
----
-
 # Country-specific Speeds
 As there are various traffic regulations in different countries, if no [maximum
 speed](http://wiki.openstreetmap.org/wiki/Key:maxspeed) tag is given in

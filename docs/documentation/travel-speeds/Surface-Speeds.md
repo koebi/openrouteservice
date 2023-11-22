@@ -1,7 +1,3 @@
----
-title: Surface Speeds
----
-
 # Surface Speeds
 The surfaces correspond to the OSM [surface](https://wiki.openstreetmap.org/wiki/Key:surface) tag value.
 This table aggregates the values in the [speed value files][svf].

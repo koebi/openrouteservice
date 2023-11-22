@@ -1,8 +1,4 @@
----
-title: Waytype
----
-
-## Waytype
+# WayType
 
 This extra provides info about the type of the way of the corresponding parts of the route.
 

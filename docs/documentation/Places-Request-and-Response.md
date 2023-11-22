@@ -1,7 +1,3 @@
----
-title: Places Request and Response
----
-
 # Places Request and Response
 
 The following tables contain the related names for the ``category_group_ids`` and the subordinate ``category_ids``.

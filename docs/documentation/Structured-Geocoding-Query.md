@@ -1,7 +1,3 @@
----
-title: Structured Geocoding Query
----
-
 # Structured Geocoding Query
 
 A structured geocoding request is more precise than a normal one. It is also very useful for querying locations from tables.

@@ -1,8 +1,4 @@
----
-title: Steepness
----
-
-## Steepness
+# Steepness
 
 Negative values indicate decline, positive incline.
 

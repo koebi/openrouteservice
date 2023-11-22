@@ -1,7 +1,3 @@
----
-title: Data
----
-
 # Data
 openrouteservice makes use of public opensource data. To generate the best routes, a number of different datasets are used.
 

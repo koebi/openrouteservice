@@ -1,7 +1,3 @@
----
-title: Matrix Response
----
-
 # Matrix Response
 
 The Matrix Response contains one matrix for each specified `metrics` value.
