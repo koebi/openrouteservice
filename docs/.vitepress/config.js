@@ -50,6 +50,7 @@ export default defineConfig({
               { text: 'System Requirements', link: '/installation/System-Requirements'},
               { text: 'Configuration', link: '/installation/Configuration'},
               { text: 'Advanced Docker Setup', link: '/installation/Advanced-Docker-Setup'}
+              { text: 'Backend Documentation', link: '/installation/Backend-Documentation'}
             ]
           },
           { text: 'Data', link: '/Data'},
