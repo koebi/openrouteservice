@@ -3,7 +3,7 @@ title: Home
 layout: home
 hero:
     name: Openrouteservice Backend Documentation
-    tagline: U a tagline writer? Apply at HeiGIT!
+    tagline: Smart mobility made easy
     actions:
         - theme: brand
           text: Getting Started
