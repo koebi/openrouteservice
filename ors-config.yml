@@ -59,7 +59,7 @@ ors:
 #  endpoints:
 #    routing:
 #      enabled: false
-#      attribution: openrouteservice.org, OpenStreetMap contributors, tmc - BASt
+#      attribution: openrouteservice.org, OpenStreetMap contributors, tmc - BASt, koebi
 #      gpx_name: ORSRouting
 #      gpx_description: This is a directions instructions file as GPX, generated from openrouteservice
 #      gpx_base_url: https://openrouteservice.org/
