@@ -25,6 +25,9 @@ ors-api/ors-config.yml
 envs/
 ors-config-repo/
 
+# Ignore ors-config.yml to not commit by accident
+ors-config.yml
+
 # docs stuff
 docs/.vitepress/dist
 docs/.vitepress/cache
