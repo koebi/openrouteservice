@@ -6,7 +6,7 @@ on:
       - releases/**
     types: [ opened, ready_for_review, reopened, synchronize ]
     paths:
-      - 'ors-api/scr/main/resources/application.yml'
+      - 'ors-api/src/main/resources/application.yml'
   workflow_dispatch:
 
 
