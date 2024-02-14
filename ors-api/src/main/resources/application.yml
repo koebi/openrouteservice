@@ -58,7 +58,7 @@ ors:
   ##### ORS endpoints settings #####
   endpoints:
     routing:
-      enabled: true
+      enabled: false
       attribution: openrouteservice.org, OpenStreetMap contributors, tmc - BASt
       gpx_name: ORSRouting
       gpx_description: This is a directions instructions file as GPX, generated from openrouteservice
