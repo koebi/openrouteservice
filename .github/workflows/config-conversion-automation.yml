@@ -11,11 +11,12 @@ on:
 
 
 jobs:
-  detect_config_change:
-    name: Detect and commit config changes
+  convert_config:
+    name: Convert changes in application.yml
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    if: (! github.event.pull_request.draft) && github.event.pull_request.state == 'open'
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -25,7 +26,6 @@ jobs:
         run: |
           .github/utils/config_conversion.sh ors-api/src/main/resources/application.yml ors-config.yml
       - uses: MichaelsJP/git-auto-commit-action@v5
-        if: (! github.event.pull_request.draft) && github.event.pull_request.state == 'open'
         with:
           commit_message: 'chore(config): automatic conversion of application.yml to ors-config.yml'
 
